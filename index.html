@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
+  <title>COLO COMPANY github</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- section1 -->
+  <section>
+    <div class="hero"></div>
+    <header>
+      <a href="#"><img src="image/logo.png" class="img"></a>
+      <ul class="nav">
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">MENU</a></li>
+        <li><a href="#">WHAT's NEWS</a></li>
+        <li><a href="#">CONTACT</a></li>
+       
+      </ul>
+    </header>
+        <div class="kim" >
+          <div class="class">
+            <h2><pre>TASTE THE FEELING</pre></h2>
+            <p>The Coca-Cola Company's World Without Waste program is an ambitious sustainable
+               packaging initiative that focuses on three key areas:
+               Design, Collect and Partner.More than 1.9 billion servings ofour drinks
+                are enjoyed in more than 200 countries each day. And it’s the 700,000
+                 individuals employed by The Coca-Cola Company and 225+ bottling partners
+                  that help to deliver refreshment across the globe.</p>
+                  <a class="web" href="https://www.coca-colacompany.com/company" target="_blank">MORE INFORMATION</a>
+          </div>
+          <div class="imgbox">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="image/cocacola1.png" ></div>
+                <div class="swiper-slide"><img src="image/cocacola2.png" alt=""></div>
+                <div class="swiper-slide"><img src="image/cocacola3.png" alt=""></div>
+                <div class="swiper-slide"><img src="image/cocacola4.png" alt=""></div>
+                <div class="swiper-slide"><img src="image/cocacola5 (1).png" alt=""></div>
+                <div class="swiper-slide"><img src="image/cocacola6.png" alt=""></div>
+              </div>
+              </div>
+          </div>
+        </div>
+         <ul class="kubo">
+          <li><a href="#"><img src="image/facebook (1).png" ></a></li>
+          <li><a href="#"><img src="image/twitter.png" ></a></li>
+          <li><a href="#"><img src="image/instagram.png" ></a></li>
+         </ul>
+  </section>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 0,
+        stretch: 0,
+        depth: 200,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+      loop:true,
+    });
+  </script>
+</body>
+</html>

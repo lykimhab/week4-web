@@ -1,0 +1,169 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+section{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #161616;
+}
+section .hero{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #e51e2a;
+  clip-path: circle(70% at right -20%);
+}
+header{
+  position: absolute;
+  display: flex;
+  top: 0;
+  left: 0;
+  padding: 40px 100px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo{
+  position: relative;
+  max-width: 150px;
+}
+header .nav{
+  position: relative;
+  display: flex;
+}
+header .nav li{
+  list-style: none;
+}
+header .nav li a{
+  display: inline-block;
+  color: #fff;
+  margin-left: 40px;
+  font-weight: 300;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.5s;
+}
+header .nav li a:hover{
+  color: #161616;
+}
+.kim{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.kim .class{
+  position: relative;
+  max-width: 600px;
+  margin-right: 20px;
+}
+.kim .class h2{
+  color:#fff ;
+  font-style: italic;
+  font-size: 70px;
+  margin-bottom: 20px;
+  
+  font-weight: 700;
+
+}
+.kim .class p{
+  color: white;
+  font-size: 20px;
+}
+.kim .class .web{
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 20px;
+  background: #e51e2a;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 40px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: opacity 0.25s ;
+}
+.kim .class .web:hover{
+  transform: translateY(-3px);
+  opacity: 0.5;
+  color: #161616;
+}
+.kubo{
+  position: absolute;
+  bottom: 40px;
+  left: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.kubo li {
+  list-style: none;
+}
+.kubo li a{
+  display: inline-block;
+  margin-left: 20px;
+  width: 30px;
+  height: 50px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: 0.2s ease-in-out;
+}
+.kubo li a:hover{
+   background: #e51e2a;
+   transform: translateY(-10px);
+}
+.kubo li a img{
+  filter: invert(0.9);
+  transform: scale(0.5);
+}
+/* img */
+.swiper {
+  width: 100%;
+  margin-right: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 200px;
+  height: 460px;
+  display: flex;
+  justify-content: center;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+.kim .imgbox{
+  width: 500px;
+  display: flex;
+  justify-content: flex-end;
+}
+.kim .imgbox img{
+  max-width: 150px;
+}
+.swiper-slide img{
+  position: absolute;
+  bottom: 0;
+  max-height: 100%;
+}
+.swiper-3d .swiper-slide-shadow-right,
+.swiper-3d .swiper-slide-shadow-left {
+  background-image: none;
+}
